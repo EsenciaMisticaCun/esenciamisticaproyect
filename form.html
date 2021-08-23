@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/formulario.css">
+   
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,800,900" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <form action="correo.php" method="POST">
+        <div class="form">
+            <h1>Solicitar</h1>
+            <div class="grupo">
+                <input type="text" name="nombre" id="" required><span class="barra"></span>
+                <label>Nombre</label>
+            </div>
+            <div class="grupo">
+                <input type="email" name="email" id="" required><span class="barra"></span>
+                <label>Email</label>
+            </div>
+            <div class="grupo">
+            <input type="tel" id="contacto" name="contacto" pattern="[0-9]{10}" required> 
+            <label for="contacto">Numero telefono(junto)</label>
+            </div>
+            <!--Calendario-->
+            <script>
+                $( function() {
+                  $( "#campofecha" ).datepicker({
+                    numberOfMonths: 2,
+                    showButtonPanel: true
+                  });
+                } );
+                </script>
+                <!--Fincalendario-->
+
+            <div class="grupo">
+                <input type="text" name="horario" id="campofecha" required><span class="barra"></span>
+                <label>Fecha</label>
+            </div>
+            <div class="grupo">
+                <input type="text" name="asunto" id="" required><span class="barra"></span>
+                <label>Acupuntura, masajes...</label>
+            </div>
+            <div class="grupo">
+                <textarea name="mensaje" id="" rows="3"></textarea><span class="barra"></span>
+                <label>Especificar (opcional)</label>
+            </div>
+          
+            <div class="position-button">
+                <button type="button" value="Página anterior" onClick="history.go(-1);">Atrás</button>
+                <button type="submit" class="btn btn-lg btn-primary">Enviar</button>
+            </div>
+           
+
+        </div>
+    </form>
+   
+</body>
+</html>

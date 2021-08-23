@@ -1,0 +1,23 @@
+.carousel {
+  position: relative;
+}
+
+.carousel.pointer-event {
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+}
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  overflow: hidden;
+  align-items: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  /*La propiedad CSS z-index indica el orden de un elemento posicionado
+   y sus descendientes. Cuando varios elementos se superponen, los elementos 
+   con mayor valor z-index cubren aquellos con menor valor.*/
+  z-index: 5;  
+}

@@ -1,0 +1,803 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap|Vioada');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+/*WELCOME*/
+.container2 {
+    width: 100%;
+    height: 450px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.banner{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+/*Banner2 se creo pues existe un error en el nav*/
+@media screen and (min-width: 801px){
+.banner2{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+    margin-top: 57px;
+}
+}
+@media screen and (max-width: 800px){
+    .banner2{
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      
+    }
+    }
+
+.container-text{
+	
+	width: 100%;
+	position: relative;
+}
+
+.container-text .texto{
+	vertical-align: middle;
+	padding-top: 0;
+	padding-bottom: 50px;
+}
+
+.banner2 .titulo{
+	position: relative;
+}
+
+.banner2 .titulo span{
+	display: block;
+}
+
+@media screen and (min-width: 550px){
+/*Inico*/
+.banner2 .titulo .primero {
+    color: #661248;
+    font-family: 'italianno', cursive;
+    font-size: 144px;
+}
+/*Promocion*/
+.banner2 .titulo .primero-B {
+    color: #c72c61;
+    font-family: 'italianno', cursive;
+    font-size: 175px;
+}
+ /*Nosotros*/
+ .banner2 .titulo .primero-c {
+    color: #c72c61;
+    font-family: 'italianno', cursive;
+    font-size: 160px;
+}
+  /*Inicio*/
+  .banner2 .titulo .segundo {
+    color: #a9316f;
+    font-family: 'italianno', cursive;
+    font-size: 160px;
+    margin-top: -100px;
+}
+  /*Promocion*/
+  .banner2 .titulo .segundo-B {
+    color: #783986;
+    font-family: 'italianno', cursive;
+    font-size: 190px;
+    margin-top: -111px;
+}
+  /*Nosotros*/
+  .banner2 .titulo .segundo-c {
+    color: #783986;
+    font-family: 'Great Vibes', cursive;
+    font-size: 114px;
+    margin-top: -95px;
+    letter-spacing: 6px;
+}
+
+
+.banner2 .titulo .tercero{
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	color: #3a103a;
+	font-size: 25px;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+.descripcion {
+    color: #3a103a;
+    font-family: 'Tangerine', cursive;
+    font-weight: 300;
+    font-size: 60px;
+}
+}
+@media screen and (max-width: 550px){
+    
+    /*inicio*/
+    .banner2 .titulo .primero {
+        color: #a53f7b;
+        font-family: 'italianno', cursive;
+        font-size: 115px;
+        margin-left: -40px;
+    }
+    /*promocion*/
+    .banner2 .titulo .primero-B {
+        color: #c72c61;
+        font-family: 'italianno', cursive;
+        font-size: 115px;
+        margin-left: -45px;
+    }
+    /*nosotros*/
+    .banner2 .titulo .primero-c {
+        color: #c72c61;
+        font-family: 'italianno', cursive;
+        font-size: 100px;
+        margin-left: -13px;
+    }
+    /*inicio*/
+    .banner2 .titulo .segundo {
+        color: #7c437c;
+        font-family: 'italianno', cursive;
+        font-size: 115px;
+        margin-top: -79px;
+        margin-left: -24px;
+    }
+    /*Promocion*/
+    .banner2 .titulo .segundo-B {
+        color: #783986;
+        font-family: 'italianno', cursive;
+        font-size: 118px;
+        margin-top: -82px;
+        margin-left: -25px;
+    }
+    /*Nosotros*/
+    .banner2 .titulo .segundo-c {
+        color: #783986;
+        font-family: 'Great Vibes', cursive;
+        font-size: 80px;
+        margin-top: -60px;
+        margin-left: -42px;
+        letter-spacing: 2px;
+    }
+    
+    
+    .banner2 .titulo .tercero{
+        font-family: 'Fira Sans Extra Condensed', sans-serif;
+        color: #3a103a;
+        font-size: 25px;
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+    .descripcion {
+        color: #3a103a;
+        font-family: 'Tangerine', cursive;
+        font-weight: 300;
+        font-size: 60px;
+    }
+    }
+    /*welcome end*/
+
+    /*2daPARTE ESENCIA*/
+
+  
+
+
+.subtitulo {
+    padding-left: 20px;
+}
+
+
+
+/*VISITA BOHO*/
+.esencia-mistica {
+    margin-top: 40px;
+}
+.esencia-mistica .container {
+    position: relative;
+}
+.esencia-mistica .container .titulo .primero {
+    font-family: 'italianno', cursive;
+    font-size: 100px;
+    margin-left: -30px;
+}
+.esencia-mistica .container .titulo .segundo {
+    font-family: 'italianno', cursive;
+    font-size: 95px;
+    color: #7c437c;
+    line-height: 0.4;
+}
+.esencia-mistica .container .subtitulo .primero {
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+    margin-bottom: 26px;
+    font-size: 22px;
+}
+.esencia-mistica .container .position-button a{
+    padding: 5px;
+}
+.esencia-mistica .container .subtitulo .segundo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.ideal-text-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    letter-spacing: 6px;
+    top: 0;
+    right: 0;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+    /*Mostrar servicios con imagenes*/
+    .noticia {
+        width: 100%;
+        color: rgb(0, 0, 0);
+        padding: 15px;
+        font-size: x-large;
+        background-color: #fcfcfc;
+      }
+      .noticia-color{
+        background-color: #f4c1d0;
+          width: 100%;
+        color: rgb(0, 0, 0);
+        padding: 15px;
+        font-size: x-large;
+      }
+      
+      div.noticia img.izquierda,
+      div.noticia-color img.izquierda{
+        float: right;
+        margin-left: 15px;
+        width: 100%;
+        max-width: 650px;
+        filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7)); 
+        margin-top: 10px;
+      }
+      
+      div.noticia img.derecha,
+      div.noticia-color img.derecha {
+        float: left;
+        margin-right: 15px;
+      }
+      
+      div.reset {
+        clear: both;
+      }
+      .noticia .titulo .primero,
+      .noticia-color .titulo .primero{
+        color: #9c5c9c;
+        font-family: 'Oswald', sans-serif;
+        font-size: 60px;
+    }
+    .noticia-color .titulo .segundo,
+    .noticia .titulo .segundo  {
+        color: #7c437c;
+        font-family: 'Great Vibes', cursive;
+        font-size: 110px;
+        
+     
+    }
+    .noticia-color .titulo .tercero,
+    .noticia .titulo .tercero{
+        font-family: 'Fira Sans Extra Condensed', sans-serif;
+        text-align: justify;
+        color: #3a103a;
+        font-size: 25px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        
+    }
+    .noticia-color .position-button,
+    .noticia .position-button{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .noticia-color .position-button .primero,
+    .noticia .position-button .primero{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    
+/*---------------------*/    
+    
+    .columna-categoria {
+        width: 50%;
+    }
+    .nopadding {
+        padding: 0;
+    }
+    .text-right {
+        text-align: right !important;
+    }
+    
+/*sección 3, nuestros servicios*/
+
+@media screen and (min-width: 550px){
+.elemento {
+    display: block;
+    visibility: visible;
+    animation-name: fadeInUp;
+}
+.nuestros {
+    font-family: 'italianno', cursive;
+    color: #7c437c;
+    /*font-size: 130px;*/
+    font-size: 130px;
+}
+.tratamientos {
+    font-family: 'italianno', cursive;
+    font-size: 91px;
+    padding-left: 101px;
+    position: relative;
+    bottom: 70px;
+    color: #7c437c;
+}
+.tratamientos-2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    letter-spacing: 6px;
+    font-size: 60px;
+    padding-left: 94px;
+    position: relative;
+    bottom: 26px;
+    color: #7c437c;
+}
+.banner .container .descripcion {
+    color: #2d2830;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+}
+@media screen and (max-width: 550px){
+    .elemento {
+        display: block;
+        visibility: visible;
+        animation-name: fadeInUp;
+    }
+    .nuestros {
+        font-family: 'italianno', cursive;
+        color: #7c437c;
+        /*font-size: 130px;*/
+        font-size: 120px;
+    margin-left: -26px;
+    }
+    .tratamientos {
+        font-family: 'italianno', cursive;
+        font-weight: 300;
+        font-size: 80px;
+        position: relative;
+        bottom: 48px;
+        color: #7c437c;
+        margin-left: -2px;
+    }
+    .tratamientos-2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        letter-spacing: 6px;
+        font-size: 20px;
+        padding-left: 94px;
+        position: relative;
+        bottom: 26px;
+        color: #7c437c;
+    }
+    .banner .container .descripcion {
+        color: #2d2830;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+    }
+}
+
+/*Tarjetas*/
+.containerTRJ {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    min-height: 100%;
+    margin: 0px auto;
+    /*padding: 10px;*/
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .element-card {
+    position: relative;
+    width: 150px;
+    height: 250px;
+    transform-style: preserve-3d;
+    transform: rotatey(0deg) translatex(0px) translatey(0px);
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  
+  .element-card.open {
+    width: 150px;
+    height: 260px;
+    transform: rotatey(-180deg) translatex(0px) translatey(0px);
+  }
+  
+  .element-card .front-facing {
+    transform: rotateY(0deg) translateZ(2px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #ecf0f1;
+    
+    border-radius: 5px;
+  }
+
+  .element-card .front-facing .abr {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 23px;
+    margin: -35px 0 0 0;
+    align-items: center;
+    text-align: center;
+    color: #3498db;
+  }
+  
+  .element-card .front-facing .title {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 12px;
+    margin: 15px 0 0 0;
+    text-align: center;
+    color: #3498db;
+  }
+
+  .element-card .front-facing .atomic-number {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 12px;
+    color: #2980b9;
+  }
+  
+  .element-card .front-facing .atomic-mass {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: #2980b9;
+  }
+
+  .element-card .back-facing {
+    transform: rotateY(180deg) translateZ(0px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #ecf0f1;
+    border: 2px white solid;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .element-card .back-facing p {
+    font-size: 24px;
+    margin: 0;
+  }
+  .element-card .back-facing h4 {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    background-color: #d2ccd2;
+    color: #481d60;
+}
+  .element-card .back-facing a.btn {
+    display: inline-block;
+    background-color: white;
+    padding: 5px 15px;
+    margin: 20px 0 0 0;
+    color: #eee;
+    background-color: #3498db;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+
+  .element-card .back-facing a.btn:hover, .element-card .back-facing a.btn:focus {
+    color: #fff;
+    background-color: #2980b9;
+  }
+  
+  .suppoprt-me {
+    display: inline-block;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 20vw;
+    max-width: 250px;
+    min-width: 200px;
+    z-index: 9;
+  }
+  
+  .suppoprt-me img {
+    width: 100%;
+    height: auto;
+  }
+
+/*ESPACIO MAGICO EN CANCUN*/
+.container-custom {
+    padding-top: 70px;
+    padding-left: 32px;
+    padding-bottom: 70px;
+}
+.container-custom {
+    padding-top: 100px;
+    padding-left: 100px;
+    position: relative;
+    max-width: 700px;
+}
+.container3 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+.container3 .titulo .segundo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
+    color: #d1f2ec;
+    position: relative;
+    line-height: 5px;
+    left: 48px;
+}
+
+
+.container3 .titulo span {
+    display: block;
+}
+.container3 .parrafo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+/*PRUEBA*/
+@media screen and (max-width: 1280px){
+.noticia-2 {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    font-size: x-large;
+    background-color: #dddbdeff;
+  }
+  
+  div.noticia-2 img.izquierda {
+    float: right;
+    margin-left: 15px;
+    width: 100%;
+    max-width: 450px;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7)); 
+    margin-top: 81px;
+  }
+  
+  div.noticia-2 img.derecha {
+    float: left;
+    margin-right: 15px;
+  }
+  
+  div.reset {
+    clear: both;
+  }
+  
+  .noticia-2 .titulo .primero {
+    color: #9c5c9c;
+    font-family: 'italianno', cursive;
+    font-size: 100px;
+}
+.noticia-2 .titulo .segundo {
+    color: #7c437c;
+    font-family: 'italianno', cursive;
+    font-size: 120px;
+    margin-top: 31px;
+    margin-left: -27px;
+}
+.container3 .titulo .tercero {
+    font-family: 'italianno', cursive;
+    font-size: 43px;
+    color: #380350;
+    position: relative;
+    letter-spacing: 7px;
+    font-style: italic;
+    line-height: 167px;
+    left: 123px;
+    margin-top: -30px;
+}
+.noticia-2 .position-button{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.noticia-2 .position-button .primero{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+}
+
+@media screen and (min-width: 1280px){
+    .noticia-2 {
+        width: 100%;
+        color: rgb(0, 0, 0);
+        padding: 15px;
+        font-size: x-large;
+        background-color: #dddbdeff;
+      }
+      
+      div.noticia-2 img.izquierda {
+        float: right;
+        margin-left: 15px;
+        width: 100%;
+        max-width: 450px;
+        filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7)); 
+        margin-top: 81px;
+      }
+      
+      div.noticia-2 img.derecha {
+        float: left;
+        margin-right: 15px;
+      }
+      
+      div.reset {
+        clear: both;
+      }
+      
+      .noticia-2 .titulo .primero {
+        color: #9c5c9c;
+        font-family: 'italianno', cursive;
+        font-size: 120px;
+    }
+    .noticia-2 .titulo .segundo {
+        color: #7c437c;
+        font-family: 'italianno', cursive;
+        font-size: 150px;
+        margin-top: 14px;
+        margin-left: -18px;
+    }
+    .noticia-2 .titulo .tercero {
+        font-family: 'italianno', cursive;
+        text-align: justify;
+        color: #3a103a;
+        font-size: 57px;
+        letter-spacing: 2px;
+        margin-top: 27px;
+        margin-left: 147px;
+    }
+    .noticia-2 .position-button{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .noticia-2 .position-button .primero{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,453 @@
+@media screen and (max-width: 2550px){
+  .container-promo {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    min-height: 100%;
+    margin: 0px auto;
+    /*padding: 10px;*/
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-promo .element-card {
+    position: relative;
+    width: 300px;
+    height: 500px;
+    transform-style: preserve-3d;
+    transform: rotatey(0deg) translatex(0px) translatey(0px);
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .container-promo .element-card.open {
+    width: 300px;
+    height: 510px;
+    transform: rotatey(-180deg) translatex(0px) translatey(0px);
+  }
+  
+  .container-promo .element-card .front-facing {
+    transform: rotateY(0deg) translateZ(2px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #ecf0f1;
+    
+    border-radius: 5px;
+  }
+
+  .container-promo  .element-card .front-facing .abr {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 23px;
+    margin: -35px 0 0 0;
+    align-items: center;
+    text-align: center;
+    color: #3498db;
+  }
+  
+  .container-promo  .element-card .front-facing .title {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 15px 0 0 0;
+    text-align: center;
+    color: #3498db;
+  }
+
+  .container-promo .element-card .front-facing .atomic-number {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 12px;
+    color: #2980b9;
+  }
+  
+  .container-promo .element-card .front-facing .atomic-mass {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: #2980b9;
+  }
+
+  .container-promo .element-card .back-facing {
+    transform: rotateY(180deg) translateZ(0px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #ecf0f1;
+    border: 2px white solid;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .container-promo .element-card .back-facing p {
+    font-size: 17px;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    color: #7c437c;
+}
+
+  .container-promo .element-card .back-facing a.btn {
+    display: inline-block;
+    background-color: white;
+    padding: 5px 15px;
+    margin: 20px 0 0 0;
+    color: #eee;
+    background-color: #3498db;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+
+  .container-promo .element-card .back-facing a.btn:hover, .element-card .back-facing a.btn:focus {
+    color: #fff;
+    background-color: #2980b9;
+  }
+  
+  .suppoprt-me {
+    display: inline-block;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 20vw;
+    max-width: 250px;
+    min-width: 200px;
+    z-index: 9;
+  }
+  
+  .suppoprt-me img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+  .card-front{
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+  }
+
+ /*Tarjetas promo - estilo 2*/
+ @media screen and (min-width: 550px){
+  .container-promo-2 {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    min-height: 100%;
+    margin: 0px auto;
+    /*padding: 10px;*/
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-promo-2 .element-card {
+    position: relative;
+    width: 300px;
+    height: 500px;
+    transform-style: preserve-3d;
+    transform: rotatey(0deg) translatex(0px) translatey(0px);
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .container-promo-2 .element-card.open {
+    width: 300px;
+    height: 510px;
+    transform: rotatey(-180deg) translatex(0px) translatey(0px);
+  }
+  
+  .container-promo-2 .element-card .front-facing {
+    transform: rotateY(0deg) translateZ(2px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #ecf0f1;
+    
+    border-radius: 5px;
+  }
+
+  .container-promo-2  .element-card .front-facing .abr {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 23px;
+    margin: -35px 0 0 0;
+    align-items: center;
+    text-align: center;
+    color: #3498db;
+  }
+  
+  .container-promo-2  .element-card .front-facing .title {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 15px 0 0 0;
+    text-align: center;
+    color: #3498db;
+  }
+
+  .container-promo .element-card .front-facing .atomic-number {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 12px;
+    color: #2980b9;
+  }
+  
+  .container-promo-2 .element-card .front-facing .atomic-mass {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: #2980b9;
+  }
+
+  .container-promo-2 .element-card .back-facing {
+    transform: rotateY(180deg) translateZ(0px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #ecf0f1;
+    border: 2px white solid;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .container-promo-2 .element-card .back-facing p {
+    font-size: 17px;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    color: #7c437c;
+}
+
+  .container-promo-2 .element-card .back-facing a.btn {
+    display: inline-block;
+    background-color: white;
+    padding: 5px 15px;
+    margin: 20px 0 0 0;
+    color: #eee;
+    background-color: #3498db;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+
+  .container-promo-2 .element-card .back-facing a.btn:hover, .element-card .back-facing a.btn:focus {
+    color: #fff;
+    background-color: #2980b9;
+  }
+  
+  .suppoprt-me {
+    display: inline-block;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 20vw;
+    max-width: 250px;
+    min-width: 200px;
+    z-index: 9;
+  }
+  
+  .suppoprt-me img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .container-promo-2 {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    min-height: 100%;
+    margin: 0px auto;
+    /*padding: 10px;*/
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-promo-2 .element-card {
+    position: relative;
+    width: 300px;
+    height: 500px;
+    transform-style: preserve-3d;
+    transform: rotatey(0deg) translatex(0px) translatey(0px);
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.4);
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .container-promo-2 .element-card.open {
+    width: 300px;
+    height: 510px;
+    transform: rotatey(-180deg) translatex(0px) translatey(0px);
+  }
+  
+  .container-promo-2 .element-card .front-facing {
+    transform: rotateY(0deg) translateZ(2px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #ecf0f1;
+    
+    border-radius: 5px;
+  }
+
+  .container-promo-2  .element-card .front-facing .abr {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 23px;
+    margin: -35px 0 0 0;
+    align-items: center;
+    text-align: center;
+    color: #3498db;
+  }
+  
+  .container-promo-2  .element-card .front-facing .title {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 15px 0 0 0;
+    text-align: center;
+    color: #3498db;
+  }
+
+  .container-promo .element-card .front-facing .atomic-number {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 12px;
+    color: #2980b9;
+  }
+  
+  .container-promo-2 .element-card .front-facing .atomic-mass {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: #2980b9;
+  }
+
+  .container-promo-2 .element-card .back-facing {
+    transform: rotateY(180deg) translateZ(0px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #ecf0f1;
+    border: 2px white solid;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .container-promo-2 .element-card .back-facing p {
+    font-size: 17px;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    color: #7c437c;
+}
+
+  .container-promo-2 .element-card .back-facing a.btn {
+    display: inline-block;
+    background-color: white;
+    padding: 5px 15px;
+    margin: 20px 0 0 0;
+    color: #eee;
+    background-color: #3498db;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+
+  .container-promo-2 .element-card .back-facing a.btn:hover, .element-card .back-facing a.btn:focus {
+    color: #fff;
+    background-color: #2980b9;
+  }
+  
+  .suppoprt-me {
+    display: inline-block;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 20vw;
+    max-width: 250px;
+    min-width: 200px;
+    z-index: 9;
+  }
+  
+  .suppoprt-me img {
+    width: 100%;
+    height: auto;
+  }
+}
+	
+
+ 
+
+ 

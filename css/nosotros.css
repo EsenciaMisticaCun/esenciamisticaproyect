@@ -1,0 +1,70 @@
+.noticia-3, .notica-4{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    font-size: x-large;
+    background-color: #ffffff;
+    margin-top: -12rem;
+  }
+  
+  div.noticia-3 img.izquierda,
+  div.noticia-4 img.izquierda
+   {
+    float: right;
+    margin-left: 15px;
+    width: 100%;
+    max-width: 650px;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7)); 
+    margin-top: 10px;
+  }
+  
+  div.noticia-3 img.derecha,
+  div.noticia-4 img.derecha {
+    float: left;
+    margin-right: 15px;
+  }
+  
+  div.reset {
+    clear: both;
+  }
+  .noticia-3 .titulo .primero,
+  .noticia-4 .titulo .primero  {
+    color: #9c5c9c;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+}
+.noticia-3 .titulo .segundo,
+.noticia-3 .titulo .segundo {
+    color: #7c437c;
+    font-family: 'Great Vibes', cursive;
+    font-size: 110px;
+}
+.noticia-3 .titulo .tercero, 
+.noticia-4 .titulo .tercero{
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    text-align: justify;
+    color: #3a103a;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    
+}
+.noticia-3 .position-button,
+.noticia-4 .position-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -25px;
+}
+.noticia-3 a
+.noticia-4 a{
+  padding: 10px;
+}
+
+.noticia-3 .position-button .primero,
+.noticia-4 .position-button .primero{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
